@@ -46,20 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToStringConverterFactory.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ToStringConverterFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/net/ToStringConverterFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.12014134">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RetrofitFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RetrofitFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/net/RetrofitFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63957596">
+            <state vertical-scroll-proportion="0.0">
               <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding />
             </state>
@@ -2648,8 +2648,8 @@
         <option value="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/basebean/sbscribe/Rx.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/bocai/boc_tongxing/simpleframesample/MainActivity.java" />
         <option value="$PROJECT_DIR$/simpleframe/build.gradle" />
-        <option value="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/net/ToStringConverterFactory.java" />
         <option value="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/net/RetrofitFactory.java" />
+        <option value="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/net/ToStringConverterFactory.java" />
       </list>
     </option>
   </component>
@@ -3106,8 +3106,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -3123,7 +3123,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3427,18 +3427,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/net/ToStringConverterFactory.java">
+    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/net/RetrofitFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/net/RetrofitFactory.java">
+    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/net/ToStringConverterFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63957596">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.12014134">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>

@@ -11,9 +11,7 @@ import java.lang.reflect.Type;
 import retrofit.Converter;
 
 /**
- * Created by wushaorong on 12/15/15.
  * 用于string于response和requetbody之间的切换
- * 引用自JakeWharton大神在github上的测试代码
  */
 public class ToStringConverterFactory extends Converter.Factory {
     private static final MediaType MEDIA_TYPE = MediaType.parse("text/plain");
