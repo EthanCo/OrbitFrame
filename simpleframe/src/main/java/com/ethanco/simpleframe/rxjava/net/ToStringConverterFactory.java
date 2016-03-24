@@ -1,14 +1,15 @@
 package com.ethanco.simpleframe.rxjava.net;
 
-import com.squareup.okhttp.MediaType;
-import com.squareup.okhttp.RequestBody;
-import com.squareup.okhttp.ResponseBody;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Type;
 
-import retrofit.Converter;
+import okhttp3.MediaType;
+import okhttp3.RequestBody;
+import okhttp3.ResponseBody;
+import retrofit2.Converter;
+import retrofit2.Retrofit;
 
 /**
  * 用于string于response和requetbody之间的切换
@@ -18,7 +19,7 @@ public class ToStringConverterFactory extends Converter.Factory {
 
 
     @Override
-    public Converter<ResponseBody, ?> fromResponseBody(Type type, Annotation[] annotations) {
+    public Converter<ResponseBody, ?> responseBodyConverter(Type type, Annotation[] annotations, Retrofit retrofit) {
         if (String.class.equals(type)) {
             return new Converter<ResponseBody, String>() {
                 @Override
@@ -31,12 +32,25 @@ public class ToStringConverterFactory extends Converter.Factory {
     }
 
     @Override
-    public Converter<?, RequestBody> toRequestBody(Type type, Annotation[] annotations) {
+    public Converter<?, RequestBody> requestBodyConverter(Type type, Annotation[] parameterAnnotations, Annotation[] methodAnnotations, Retrofit retrofit) {
         if (String.class.equals(type)) {
             return new Converter<String, RequestBody>() {
                 @Override
                 public RequestBody convert(String value) throws IOException {
                     return RequestBody.create(MEDIA_TYPE, value);
+                }
+            };
+        }
+        return null;
+    }
+
+    @Override
+    public Converter<?, String> stringConverter(Type type, Annotation[] annotations, Retrofit retrofit) {
+        if (String.class.equals(type)) {
+            return new Converter<ResponseBody, String>() {
+                @Override
+                public String convert(ResponseBody value) throws IOException {
+                    return value.string();
                 }
             };
         }
