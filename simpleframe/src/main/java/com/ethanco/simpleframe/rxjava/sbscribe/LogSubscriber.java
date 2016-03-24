@@ -1,4 +1,4 @@
-package com.ethanco.simpleframe.basebean.sbscribe;
+package com.ethanco.simpleframe.rxjava.sbscribe;
 
 /**
  * Created by Zhk on 2016/1/3.

@@ -6,7 +6,7 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/Studio/android-sdk-windows/android-sdk-windows/extras/android/m2repository/com/android/databinding/adapters/1.0-rc5/adapters-1.0-rc5-sources.jar!/" />
+      <root url="jar://D:/SDK/extras/android/m2repository/com/android/databinding/adapters/1.0-rc5/adapters-1.0-rc5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

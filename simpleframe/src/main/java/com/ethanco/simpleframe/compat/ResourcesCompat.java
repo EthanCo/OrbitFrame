@@ -9,9 +9,9 @@
  * |  DATE      | NAME       | REASON       | CHANGE REQ.
  * ----------------------------------------------------------------------
  * | 2015年4月8日    | YOLANDA    | Created      |
- * <p/>
+ * <p>
  * DESCRIPTION：create the File, and add the content.
- * <p/>
+ * <p>
  * *********************************************************************
  */
 package com.ethanco.simpleframe.compat;
@@ -24,7 +24,8 @@ import android.graphics.drawable.Drawable;
 import android.os.Build.VERSION;
 
 /**
- * @author YOLANDA
+ * Description 获取资源兼容
+ *
  * @Time 2015年4月8日 下午4:41:56
  */
 public class ResourcesCompat {

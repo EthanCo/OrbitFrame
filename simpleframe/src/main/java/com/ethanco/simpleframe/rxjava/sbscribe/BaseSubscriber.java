@@ -1,4 +1,4 @@
-package com.ethanco.simpleframe.basebean.sbscribe;
+package com.ethanco.simpleframe.rxjava.sbscribe;
 
 import com.ethanco.simpleframe.utils.LogUtils;
 

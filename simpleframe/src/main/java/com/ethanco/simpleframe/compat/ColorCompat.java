@@ -6,6 +6,7 @@ import android.support.annotation.ColorInt;
 import android.support.annotation.ColorRes;
 
 /**
+ * Description 设置颜色 兼容
  * Created by EthanCo on 2016/1/10.
  */
 public class ColorCompat {

@@ -4,8 +4,7 @@ import android.content.Context;
 import android.os.Environment;
 
 /**
- * 路径的兼容
- * <p>
+ * Description 路径的兼容
  * Created by Zhk on 2015/12/24.
  */
 public class DirCompat {

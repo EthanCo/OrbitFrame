@@ -9,6 +9,7 @@
 	- 图片加载:Fresco
 	- 数据解析:Gson
 	- 响应式框架:RxAndroid
+	- 依赖注入框架:Dragger2
 	- Lambda支持:retrolambda  
 	- <s>注解框架:ButterKnife</s> (改为DataBinding)
 	- 对话框:material-dialogs (基于DialogFragment)
@@ -31,7 +32,7 @@
 	buildscript {
 		//开始加入
 		 dependencies {
-		 classpath 'me.tatarka:gradle-retrolambda:3.2.4'
+		 	classpath 'me.tatarka:gradle-retrolambda:3.2.5'
 		 }
 		 //结束插入
 	}

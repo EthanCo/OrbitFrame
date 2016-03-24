@@ -1,4 +1,4 @@
-package com.ethanco.simpleframe.task;
+package com.ethanco.simpleframe.rxjava.task;
 
 import android.support.annotation.NonNull;
 import android.util.Log;
