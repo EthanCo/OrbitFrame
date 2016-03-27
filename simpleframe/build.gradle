@@ -25,6 +25,11 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+//    packagingOptions {
+//        //exclude 'META-INF/services/javax.annotation.processing.Processor'
+//        exclude 'META-INF/maven/com.google.guava/guava/pom.properties'
+//        exclude 'META-INF/maven/com.google.guava/guava/pom.xml'
+//    }
 }
 
 dependencies {
