@@ -12,7 +12,7 @@
 	- 依赖注入框架:Dragger2
 	- Lambda支持:retrolambda  
 	- <s>注解框架:ButterKnife</s> (改为DataBinding)
-	- 内存检测:LeakCanary
+	- 内存泄露检测:LeakCanary
 	- 对话框:material-dialogs (基于DialogFragment)
 	- Cardview、RecyclerView、Palette
 
