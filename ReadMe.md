@@ -12,6 +12,7 @@
 	- 依赖注入框架:Dragger2
 	- Lambda支持:retrolambda  
 	- <s>注解框架:ButterKnife</s> (改为DataBinding)
+	- 内存检测:LeakCanary
 	- 对话框:material-dialogs (基于DialogFragment)
 	- Cardview、RecyclerView、Palette
 
@@ -36,4 +37,7 @@
 		 }
 		 //结束插入
 	}
-##  ##
+
+对于LeakCanary  
+> 第一次启动的时候，需要手动点击Leaks(在桌面上)程序启动它  
+> 默认情况下LeakCanary只检测Activity的内存泄露，若要检测其他的内存泄露，需要自己配置

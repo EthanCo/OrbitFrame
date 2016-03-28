@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.ethanco.simpleframe.handler.CrashFileSaveListener;
 import com.ethanco.simpleframe.handler.CrashHandler;
+import com.squareup.leakcanary.LeakCanary;
 
 /**
  * Created by Zhk on 2015/12/22.
@@ -17,6 +18,7 @@ public abstract class BaseApplication extends Application implements CrashFileSa
             crashHandler.init(this);
             crashHandler.sendPreviousReportsToServer();
         }
+        LeakCanary.install(this);
     }
 
     /**
