@@ -17,7 +17,7 @@
 	- Cardview、RecyclerView、Palette
 
 ## MVVM架构 ##
-采用MVVM+RxJava+RxAndroid+Retrofit+Lambda表达式，Java需要使用Java8
+采用MVVM+Dagger2+RxJava+RxAndroid+Retrofit+Lambda表达式，Java需要使用Java8
 	
 ### 添加SimpelFrame后，请在项目的build.gradle中添加  
 
