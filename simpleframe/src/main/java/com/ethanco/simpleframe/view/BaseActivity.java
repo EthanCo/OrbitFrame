@@ -12,6 +12,7 @@ import android.transition.Explode;
 import android.view.View;
 
 /**
+ * 如果不使用Fragment继承该类
  * Created by EthanCo on 2016/1/12.
  */
 public abstract class BaseActivity extends AppCompatActivity {

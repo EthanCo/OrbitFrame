@@ -41,3 +41,17 @@
 对于LeakCanary  
 > 第一次启动的时候，需要手动点击Leaks(在桌面上)程序启动它  
 > 默认情况下LeakCanary只检测Activity的内存泄露，若要检测其他的内存泄露，需要自己配置
+
+### 使用 ###
+Activity
+
+- 如果不使用Fragment统一继承BaseActivity
+- 如果使用Fragment统一继承BaseFragmentActivity  
+
+Fragment
+
+- 统一继承BaseFragment
+
+Application
+
+- 统一继承BaseApplication，会初始化CrashHandler和LeakCanary

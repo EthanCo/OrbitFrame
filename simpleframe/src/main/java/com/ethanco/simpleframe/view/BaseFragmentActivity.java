@@ -6,6 +6,7 @@ import android.app.FragmentTransaction;
 import android.text.TextUtils;
 
 /**
+ * 如果使用Fragment继承该类
  * Created by EthanCo on 2016/1/12.
  */
 public abstract class BaseFragmentActivity extends BaseActivity {
