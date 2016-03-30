@@ -104,7 +104,7 @@ public class FileUtils {
      * @throws RuntimeException if an error occurs while operator FileWriter
      */
     public static boolean writeFile(String filePath, String content, boolean append) {
-        if (StringUtils.isEmpty(content)) {
+        if (StringUtil.isEmpty(content)) {
             return false;
         }
 
@@ -322,7 +322,7 @@ public class FileUtils {
      * @see
      */
     public static String getFileNameWithoutExtension(String filePath) {
-        if (StringUtils.isEmpty(filePath)) {
+        if (StringUtil.isEmpty(filePath)) {
             return filePath;
         }
 
@@ -359,7 +359,7 @@ public class FileUtils {
      * @return file name from path, include suffix
      */
     public static String getFileName(String filePath) {
-        if (StringUtils.isEmpty(filePath)) {
+        if (StringUtil.isEmpty(filePath)) {
             return filePath;
         }
 
@@ -391,7 +391,7 @@ public class FileUtils {
      */
     public static String getFolderName(String filePath) {
 
-        if (StringUtils.isEmpty(filePath)) {
+        if (StringUtil.isEmpty(filePath)) {
             return filePath;
         }
 
@@ -422,7 +422,7 @@ public class FileUtils {
      * @return
      */
     public static String getFileExtension(String filePath) {
-        if (StringUtils.isBlank(filePath)) {
+        if (StringUtil.isBlank(filePath)) {
             return filePath;
         }
 
@@ -457,7 +457,7 @@ public class FileUtils {
      */
     public static boolean makeDirs(String filePath) {
         String folderName = getFolderName(filePath);
-        if (StringUtils.isEmpty(folderName)) {
+        if (StringUtil.isEmpty(folderName)) {
             return false;
         }
 
@@ -481,7 +481,7 @@ public class FileUtils {
      * @return
      */
     public static boolean isFileExist(String filePath) {
-        if (StringUtils.isBlank(filePath)) {
+        if (StringUtil.isBlank(filePath)) {
             return false;
         }
 
@@ -497,7 +497,7 @@ public class FileUtils {
      * @return
      */
     public static boolean isFolderExist(String directoryPath) {
-        if (StringUtils.isBlank(directoryPath)) {
+        if (StringUtil.isBlank(directoryPath)) {
             return false;
         }
 
@@ -517,7 +517,7 @@ public class FileUtils {
      * @return
      */
     public static boolean deleteFile(String path) {
-        if (StringUtils.isBlank(path)) {
+        if (StringUtil.isBlank(path)) {
             return true;
         }
 
@@ -553,7 +553,7 @@ public class FileUtils {
      * does not exist.
      */
     public static long getFileSize(String path) {
-        if (StringUtils.isBlank(path)) {
+        if (StringUtil.isBlank(path)) {
             return -1;
         }
 

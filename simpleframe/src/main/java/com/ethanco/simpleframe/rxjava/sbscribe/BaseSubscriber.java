@@ -1,6 +1,6 @@
 package com.ethanco.simpleframe.rxjava.sbscribe;
 
-import com.ethanco.simpleframe.utils.LogUtils;
+import com.ethanco.simpleframe.utils.L;
 
 import rx.Subscriber;
 
@@ -15,6 +15,6 @@ public abstract class BaseSubscriber<T> extends Subscriber<T> {
 
     @Override
     public void onError(Throwable e) {
-        LogUtils.i("SimpleSubscriber", "onError: " + e.getMessage());
+        L.i("SimpleSubscriber", "onError: " + e.getMessage());
     }
 }

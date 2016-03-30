@@ -15,6 +15,11 @@ public class MyApplication extends BaseApplication {
     }
 
     @Override
+    protected boolean isDebug() {
+        return BuildConfig.DEBUG;
+    }
+
+    @Override
     public void onCreate() {
         super.onCreate();
     }

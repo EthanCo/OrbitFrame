@@ -54,7 +54,7 @@ public class FrescoHelper {
 
             @Override
             protected void onFailureImpl(DataSource<CloseableReference<CloseableImage>> dataSource) {
-                LogUtils.e("FrescoHelper", "onFailureImpl: ");
+                L.e("FrescoHelper", "onFailureImpl: ");
             }
         });
     }
