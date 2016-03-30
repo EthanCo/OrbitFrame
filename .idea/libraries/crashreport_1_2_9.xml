@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="crashreport-1.2.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.bugly/crashreport/1.2.9/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.bugly/crashreport/1.2.9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.bugly/crashreport/1.2.9/7d08e9cb1a57d32ad3a6b50dde8f5709bcbb7ce8/crashreport-1.2.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

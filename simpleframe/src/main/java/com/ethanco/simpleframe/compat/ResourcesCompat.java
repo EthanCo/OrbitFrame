@@ -21,7 +21,10 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.Resources.Theme;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Build.VERSION;
+import android.support.annotation.ColorInt;
+import android.support.annotation.ColorRes;
 
 /**
  * Description 获取资源兼容
@@ -42,6 +45,15 @@ public class ResourcesCompat {
             return resources.getDrawable(resId, theme);//heigh than leve21
         } else {
             return resources.getDrawable(resId);//small than leve21
+        }
+    }
+
+    @ColorInt
+    public static int getColor(Context context,@ColorRes int color){
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            return context.getResources().getColor(color,null);
+        }else{
+            return context.getResources().getColor(color);
         }
     }
 }

@@ -9,7 +9,7 @@ import android.widget.ImageView;
  * Description  ImageView设置背景的兼容
  * Created by chenqiao on 2015/7/27.
  */
-public class BackgroundDrawableCompat {
+public class BackgroundCompat {
 
     public static void setImageBackground(ImageView imgView, Drawable drawable) {
         if (Build.VERSION.SDK_INT < 16) {

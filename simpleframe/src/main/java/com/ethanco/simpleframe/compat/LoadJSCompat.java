@@ -8,7 +8,7 @@ import android.webkit.WebView;
  * Description  调用Js方式的兼容
  * Created by chenqiao on 2015/7/4.
  */
-public class LoadJavaScriptCompat {
+public class LoadJSCompat {
 
     /**
      * @param mWebview  需要进行加载JS的webview

@@ -2,37 +2,30 @@ package com.ethanco.simpleframe;
 
 import android.app.Application;
 
-import com.ethanco.simpleframe.handler.CrashFileSaveListener;
-import com.ethanco.simpleframe.handler.CrashHandler;
 import com.squareup.leakcanary.LeakCanary;
+import com.tencent.bugly.crashreport.CrashReport;
 
 /**
  * Created by Zhk on 2015/12/22.
  */
-public abstract class BaseApplication extends Application implements CrashFileSaveListener {
+public abstract class BaseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        if (!isDebug()) {
-            CrashHandler crashHandler = CrashHandler.getInstance(this);
-            crashHandler.init(this);
-            crashHandler.sendPreviousReportsToServer();
-        }
+        CrashReport.initCrashReport(getApplicationContext(), getBuglyAppID(), false);
         LeakCanary.install(this);
     }
+
+    /**
+     * Bugly申请的App的AppID
+     * @return
+     */
+    protected abstract String getBuglyAppID();
 
     /**
      * 是否是Debug状态
      *
      * @return
      */
-    protected abstract boolean isDebug();
-
-    /**
-     * 捕捉到异常后，可以进行自己的一些处理
-     *
-     * @param filePath 异常文件文件名
-     */
-    @Override
-    public abstract void crashFileSaveTo(String filePath);
+    //protected abstract boolean isDebug();
 }

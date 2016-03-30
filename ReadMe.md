@@ -55,3 +55,9 @@ Fragment
 Application
 
 - 统一继承BaseApplication，会初始化CrashHandler和LeakCanary
+
+> 不要忘记在Manifest中进行配置
+
+	
+
+	
