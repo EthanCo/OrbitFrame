@@ -9,9 +9,12 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+/**
+ * Log
+ */
 public class L {
     public static boolean isDebug = BaseApplication.IS_DEBUG; //是否是调试状态
-    public static String defulatTAG = "zhk";
+    public static String defulatTAG = "Z-TAG";
     private static final int JSON_INDENT = 4; //缩进
     private static final String LINE_SEPARATOR = System.getProperty("line.separator");
 

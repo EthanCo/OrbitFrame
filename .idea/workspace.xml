@@ -6,56 +6,23 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Z-" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Z-TAG" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc304aa3-cba3-44d4-be5a-bc287f9be0ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/M.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/BaseLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/FileLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/JsonLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/L.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/XmlLog.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/M.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/BaseLog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/FileLog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/JsonLog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/L.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/Util.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/XmlLog.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/bocai/boc_tongxing/simpleframesample/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/bocai/boc_tongxing/simpleframesample/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/bocai/boc_tongxing/simpleframesample/MyApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/bocai/boc_tongxing/simpleframesample/MyApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simpleframe/simpleframe.iml" afterPath="$PROJECT_DIR$/simpleframe/simpleframe.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/BaseApplication.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/BaseApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/sbscribe/BaseSubscriber.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/sbscribe/BaseSubscriber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/sbscribe/SimpleSubscriber.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/rxjava/sbscribe/SimpleSubscriber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/FileUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/FileUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/FrescoHelper.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/FrescoHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/AppUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/AppUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ClipboardUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ClipboardUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/DensityUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/DensityUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/HexUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/HexUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ImageUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ImageUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/InfoUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/InfoUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/KeyBoardUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/KeyBoardUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/LocationUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/LocationUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/LogUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/L.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/MediaUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/MediaUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/NetUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/NetUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/NetWorkUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/NetWorkUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ObjectUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ObjectUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/PackageUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/PackageUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/RandomUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/RandomUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/SDCardUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/SDCardUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/SPUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/SPUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ScreenUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ScreenUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/SerializeUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/SerializeUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ShellUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ShellUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/StorageUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/StorageUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/StringUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/StringUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ThreadPoolUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ThreadPoolUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/TimeUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/TimeUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ToastUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/T.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ViewUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ViewUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/WifiUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/WifiUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ZipUtils.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/ZipUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/L.java" afterPath="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/L.java" />
     </list>
     <ignored path="SimpleFrameSample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,96 +50,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bocai/boc_tongxing/simpleframesample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8284924">
-              <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="M.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/M.java">
+      <file leaf-file-name="T.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/T.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/BaseLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/FileLog.java">
+      <file leaf-file-name="PackageUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/PackageUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.33212996">
+              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/JsonLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="L.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/L.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="75.566666">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2401#2402#0" expanded="true" />
-                <element signature="e#2439#2440#0" expanded="true" />
-                <element signature="e#2498#2499#0" expanded="true" />
-                <element signature="e#2539#2540#0" expanded="true" />
-                <element signature="e#3562#3563#0" expanded="true" />
-                <element signature="e#3602#3603#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XmlLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/XmlLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -181,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/L.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -2963,10 +2866,10 @@
         <option value="$PROJECT_DIR$/simpleframe/build/generated/source/buildConfig/debug/com/ethanco/simpleframe/BuildConfig.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/bocai/boc_tongxing/simpleframesample/MyApplication.java" />
         <option value="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/BaseApplication.java" />
-        <option value="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/L.java" />
         <option value="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/M.java" />
         <option value="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/L.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/bocai/boc_tongxing/simpleframesample/MainActivity.java" />
+        <option value="$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/L.java" />
       </list>
     </option>
   </component>
@@ -3001,8 +2904,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3039,104 +2940,16 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleFrameSample" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleframe" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleframe" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleFrameSample" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleframe" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleframe" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleFrameSample" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleFrameSample" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleFrameSample" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleframesample" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.sdk.path" value="E:/Studio/android-sdk-windows/android-sdk-windows" />
     <property name="device.picker.selection" value="BMCIKVC699999999" />
@@ -3430,7 +3243,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3439,7 +3252,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27894157" sideWeight="0.50319827" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17089306" sideWeight="0.4968017" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3572216" sideWeight="0.4968017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3448,7 +3261,6 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3460,6 +3272,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3478,7 +3291,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bocai/boc_tongxing/simpleframesample/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/T.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/L.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3486,11 +3315,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3498,7 +3333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3506,7 +3340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3514,7 +3347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3522,7 +3354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3530,7 +3361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3546,7 +3376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3583,7 +3412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3615,7 +3443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3623,7 +3450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3631,7 +3457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22107081">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3639,7 +3464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3647,7 +3471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3655,9 +3478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3665,7 +3485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13816926">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3673,7 +3492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13816926">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3681,7 +3499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22107081">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3707,7 +3524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.27633852">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3715,7 +3531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3731,7 +3546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3743,22 +3557,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.0-alpha4/compilerCommon-2.1.0-alpha4.jar!/android/databinding/tool/util/L.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.4285715">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3766,7 +3568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10720268">
           <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3774,7 +3575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.142857">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3782,7 +3582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3790,7 +3589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.857143">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3798,12 +3596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3811,7 +3603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20045558">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3823,88 +3614,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/Util.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bocai/boc_tongxing/simpleframesample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/JsonLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/BaseLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/FileLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/XmlLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/L.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/log/L.java">
+    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/T.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="75.566666">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2401#2402#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
-            <element signature="e#2498#2499#0" expanded="true" />
-            <element signature="e#2539#2540#0" expanded="true" />
-            <element signature="e#3562#3563#0" expanded="true" />
-            <element signature="e#3602#3603#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bocai/boc_tongxing/simpleframesample/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/TimeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8284924">
-          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.2599278">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleframe/src/main/java/com/ethanco/simpleframe/utils/PackageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33212996">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
       </provider>
