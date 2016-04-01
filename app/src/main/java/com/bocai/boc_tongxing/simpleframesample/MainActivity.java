@@ -1,33 +1,34 @@
 package com.bocai.boc_tongxing.simpleframesample;
 
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
-import com.ethanco.simpleframe.utils.L;
+import com.bocai.boc_tongxing.simpleframesample.databinding.ActivityMainBinding;
+
 
 public class MainActivity extends AppCompatActivity {
+
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main);
 
-        //CrashReport.testJavaCrash(); CrashReport测试
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        binding.tvText.setText("Hello");
 
-//        Log.i("z-tag", "zhk-" + BuildConfig.DEBUG);
-//        Log.i("z-tag", "zhk-" + "MyApplication.IS_DEBUG:" + MyApplication.IS_DEBUG);
-
-        L.v("z-tag","vvvvvvv");
-        L.w("z-tag","wwwwwww");
-        L.e("z-tag","eeeeeeee");
-        L.i("z-tag","iiiiiiii");
-        L.d("z-tag","dddddddd");
-        L.v("vvvvvvv");
-        L.w("wwwwwww");
-        L.e("eeeeeeee");
-        L.i("iiiiiiii");
-        L.d("dddddddd");
-
-        L.json("{ \"glossary\": { \"title\": \"example glossary\", \"GlossDiv\": { \"title\": \"S\", \"GlossList\": { \"GlossEntry\": { \"ID\": \"SGML\", \"SortAs\": \"SGML\", \"GlossTerm\": \"Standard Generalized Markup Language\", \"Acronym\": \"SGML\", \"Abbrev\": \"ISO 8879:1986\", \"GlossDef\": { \"para\": \"A meta-markup language, used to create markup languages such as DocBook.\", \"GlossSeeAlso\": [ \"GML\", \"XML\" ] }, \"GlossSee\": \"markup\" } } } } }");
+        setSupportActionBar(binding.toolbar);
+        binding.fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
     }
+
 }
