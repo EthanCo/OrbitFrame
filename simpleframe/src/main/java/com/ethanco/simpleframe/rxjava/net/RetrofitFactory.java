@@ -13,8 +13,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 public class RetrofitFactory {
     private static Retrofit sinaRetrofit;
+    private static Boolean haveBaseUrl = false;
 
     public static Retrofit createSINARetrofit(String baseUrl) {
+        haveBaseUrl = true;
         return getGsonRxJava53iqComponentRetrofit(baseUrl);
     }
 
@@ -24,7 +26,10 @@ public class RetrofitFactory {
      * @return
      */
     public static Retrofit createSINARetrofit() {
-        return getGsonRxJava53iqComponentRetrofit("");
+        if (!haveBaseUrl) {
+            throw new IllegalStateException("在已调用过createSINARetrofit(String baseUrl)后可使用");
+        }
+        return getGsonRxJava53iqComponentRetrofit(null);
     }
 
     private static Retrofit getGsonRxJava53iqComponentRetrofit(String baseUrl) {
