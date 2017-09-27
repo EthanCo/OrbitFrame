@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app.login" />
+            <option value="$PROJECT_DIR$/app.scene" />
+            <option value="$PROJECT_DIR$/app.settings" />
+            <option value="$PROJECT_DIR$/lib.bugly" />
+            <option value="$PROJECT_DIR$/lib.frame" />
+            <option value="$PROJECT_DIR$/lib.kotlinex" />
+            <option value="$PROJECT_DIR$/lib.mvvm" />
+            <option value="$PROJECT_DIR$/lib.network" />
+            <option value="$PROJECT_DIR$/lib.print" />
+            <option value="$PROJECT_DIR$/lib.style" />
+            <option value="$PROJECT_DIR$/lib.utils" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        applicationId "cn.nbhope.smarthome"
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        release {
+            storeFile file(project.property('keyStore'))
+            storePassword project.property('keyStorePassword')
+            keyAlias project.property('keyAlias')
+            keyPassword project.property('keyAliasPassword')
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    dataBinding {
+        enabled true
+    }
+    compileOptions {
+        targetCompatibility rootProject.ext.android.targetCompatibility
+        sourceCompatibility rootProject.ext.android.sourceCompatibility
+    }
+    kapt {
+        generateStubs = true
+        arguments {
+            arg("moduleName", project.getName())
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation rootProject.ext.dependencies.junit
+    androidTestImplementation 'com.android.support.test:runner:0.5'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    kapt "com.android.databinding:compiler:$android_plugin_version"
+    implementation rootProject.ext.dependencies.supportv7
+    implementation rootProject.ext.dependencies.constraint_layout
+
+    //ARouter
+    implementation rootProject.ext.dependencies.arouter_api
+    kapt rootProject.ext.dependencies.kotlin_arouter_compiler
+
+    implementation project(':lib.frame')
+    implementation project(':lib.network')
+    implementation project(':lib.kotlinex')
+    implementation project(':lib.utils')
+    implementation project(':lib.print')
+    implementation project(':lib.bugly')
+    if (!rootProject.ext.is_build_module) {
+        implementation project(':app.login')
+        implementation project(':app.scene')
+        implementation project(':app.settings')
+    }
+
+    //LeakCanary
+    debugImplementation rootProject.ext.dependencies.leakcanary
+    releaseImplementation rootProject.ext.dependencies.leakcanary_no_op
+}
