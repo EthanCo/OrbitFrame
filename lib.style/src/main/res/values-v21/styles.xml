@@ -5,13 +5,23 @@
     <style name="AppThemeDefaultV21" parent="AppThemeDefaultV19">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowTranslucentNavigation">false</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <!--@drawable/shape_title-->
     </style>
 
-    <style name="FullAppTheme" parent="AppThemeDefault" >
+    <style name="FullAppTheme" parent="FullAppThemeBase" >
     </style>
 
     <style name="Theme.AppStartLoadTranslucent" parent="FullAppTheme">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:statusBarColor">#00000000</item>
     </style>
 </resources>

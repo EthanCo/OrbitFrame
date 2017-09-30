@@ -13,7 +13,7 @@ class LoginActivity : BaseSimpleActivity() {
 
     override fun initVarAndView(savedInstanceState: Bundle?) {
         binding = DataBindingUtil.setContentView<ActivityLoginBinding>(this, R.layout.activity_login)
-        initToolbar("登录", true)
+        initToolbar("登录", false)
     }
 
     override fun initEvent() {

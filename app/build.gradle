@@ -69,6 +69,7 @@ dependencies {
     implementation project(':lib.bugly')
     if (!rootProject.ext.is_build_module) {
         implementation project(':app.login')
+        implementation project(':app.device')
         implementation project(':app.scene')
         implementation project(':app.settings')
     }

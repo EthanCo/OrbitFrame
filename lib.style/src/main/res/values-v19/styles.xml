@@ -5,12 +5,13 @@
     <style name="AppThemeDefaultV19" parent="AppThemeBase">
         <item name="windowActionBar">false</item>
         <item name="android:windowTranslucentStatus">true</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
 
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowTranslucentNavigation">false</item>
     </style>
 
-    <style name="FullAppTheme" parent="AppThemeDefault" >
+    <style name="FullAppTheme" parent="FullAppThemeBase" >
     </style>
 
     <style name="Theme.AppStartLoadTranslucent" parent="FullAppTheme">

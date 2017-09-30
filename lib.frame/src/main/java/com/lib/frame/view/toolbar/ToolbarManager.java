@@ -44,11 +44,13 @@ public class ToolbarManager {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
                 toolbar.getLayoutParams().height = getAppBarHeight(context);
                 toolbar.setPadding(toolbar.getPaddingLeft(),
-                        getStatusBarHeight(context),
+                        toolbar.getPaddingTop(),
                         toolbar.getPaddingRight(),
                         toolbar.getPaddingBottom());
             }
+            //setWindowStatusBarColor(context, R.color.colorPrimary);
 
+            //ImmersionBar.with(context).init();
 
             ((AppCompatActivity) context).setSupportActionBar(toolbar);
 
@@ -61,7 +63,7 @@ public class ToolbarManager {
     }
 
     private int getAppBarHeight(Context context) {
-        return dip2px(40, context) + getStatusBarHeight(context);
+        return dip2px(20, context) + getStatusBarHeight(context);
     }
 
     private int getStatusBarHeight(Context context) {
@@ -72,6 +74,7 @@ public class ToolbarManager {
             result = context.getResources().getDimensionPixelSize(resourceId);
         }
 
+        System.out.println("getStatusBarHeight:" + result);
         return result;
     }
 

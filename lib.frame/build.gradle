@@ -42,5 +42,6 @@ dependencies {
     compile rootProject.ext.dependencies.rxlifecycle
     compile rootProject.ext.dependencies.rxlifecycleAndroid
     compile rootProject.ext.dependencies.rxlifecycleComponents
-    compile rootProject.ext.dependencies.title_bar
+    //compile rootProject.ext.dependencies.title_bar
+    //compile rootProject.ext.dependencies.barlibrary
 }

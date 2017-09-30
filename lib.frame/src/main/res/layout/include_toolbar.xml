@@ -5,9 +5,11 @@
     android:layout_height="wrap_content"
     android:elevation="1px"
     android:theme="@style/toolbar_theme"
+    android:fitsSystemWindows="true"
     android:translationZ="1px">
     <!--android:fitsSystemWindows="true"-->
 
+    <!--android:background="@drawable/shape_title"-->
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"

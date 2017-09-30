@@ -5,9 +5,9 @@
     <!-- Base application theme. -->
     <style name="AppThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/scene_colorPrimary</item>
-        <item name="colorPrimaryDark">@color/scene_colorPrimaryDark</item>
-        <item name="colorAccent">@color/scene_colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorLink">#0b9a27</item>
         <item name="android:textColorPrimary">@color/colorPrimaryText</item>
         <item name="android:windowBackground">@color/colorWhiteSmoke</item>
@@ -32,7 +32,7 @@
     </style>
 
     <style name="FullAppThemeBase" parent="AppThemeBase">
-        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowFullscreen">true</item>
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
     </style>

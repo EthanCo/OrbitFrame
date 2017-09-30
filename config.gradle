@@ -15,7 +15,7 @@ ext{
     ]
     versions=[
             //buildTools:android.buildToolsVersion,
-            buildTools:'26.0.1',
+            buildTools:'26.1.0', //26.0.1
             junit:4.12,
             leakcanary:'1.5.4',
             halo:'2.1.5',
@@ -103,6 +103,7 @@ ext{
             BlockCanaryEx_no_op:"com.letv.sarrsdesktop:BlockCanaryExJRTNoOp:0.9.9.1",
             eventbus:"org.greenrobot:eventbus:3.0.0",
             BRVAH:"com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.28",
+            barlibrary:"com.gyf.barlibrary:barlibrary:2.3.0",
 
             //gitHub
             ZAnno:'com.github.EthanCo:ZAnno:1.0.2',
@@ -123,7 +124,9 @@ ext{
             halo_turbo:'com.github.EthanCo.Halo-Turbo:halo-turbo:'+versions.halo,
             halo_turbo_mina:'com.github.EthanCo.Halo-Turbo:halo-turbo-mina:'+versions.halo,
             json_convertor:'com.github.EthanCo.Halo-Turbo:json-convertor:'+versions.halo,
-            title_bar:'com.github.EthanCo:TitleBar:1.0.3'
+            title_bar:'com.github.EthanCo:TitleBar:1.0.3',
+            bindingadapter:'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0',
+            bindingadapter_recyclerview: 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0'
     ]
 
     flag=[isRelease:false]

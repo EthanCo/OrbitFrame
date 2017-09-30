@@ -1,10 +1,5 @@
 package com.lib.frame.view.toolbar;
 
-import android.app.Activity;
-import android.view.View;
-
-import com.ethanco.titlebar.TitleBar;
-
 /**
  * TitleBar 管理类
  *
@@ -22,7 +17,7 @@ public class TitleBarManager {
      * @param displayHomeEnable
      * @return
      */
-    public TitleBar initTitleBar(final Activity activity, TitleBar titleBar, String title, boolean displayHomeEnable) {
+    /*public TitleBar initTitleBar(final Activity activity, TitleBar titleBar, String title, boolean displayHomeEnable) {
         titleBar.setTitle(title);
         if (displayHomeEnable) {
             titleBar.setOnLeftClickListener(new View.OnClickListener() {
@@ -33,5 +28,5 @@ public class TitleBarManager {
             });
         }
         return titleBar;
-    }
+    }*/
 }

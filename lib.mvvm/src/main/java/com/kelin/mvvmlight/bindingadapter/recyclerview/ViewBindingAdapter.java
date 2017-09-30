@@ -8,8 +8,6 @@ import com.kelin.mvvmlight.command.ReplyCommand;
 
 import java.util.concurrent.TimeUnit;
 
-import me.tatarka.bindingcollectionadapter.BindingRecyclerViewAdapter;
-import me.tatarka.bindingcollectionadapter.BindingRecyclerViewAdapter.ViewHolderFactory;
 import rx.subjects.PublishSubject;
 
 /**
@@ -49,12 +47,6 @@ public class ViewBindingAdapter {
     public static void onLoadMoreCommand(final RecyclerView recyclerView, final ReplyCommand<Integer> onLoadMoreCommand) {
         RecyclerView.OnScrollListener listener = new OnScrollListener(onLoadMoreCommand);
         recyclerView.addOnScrollListener(listener);
-
-    }
-
-    @BindingAdapter({"viewHolder"})
-    public static void setViewHolderFactory(final RecyclerView recyclerView, final ViewHolderFactory viewHolder) {
-        ((BindingRecyclerViewAdapter)recyclerView.getAdapter()).setViewHolderFactory(viewHolder);
 
     }
 

@@ -1,37 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <data></data>
+    <include layout="@layout/include_toolbar" />
 
-    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <include layout="@layout/include_toolbar" />
-
-        <LinearLayout
+        <FrameLayout
+            android:id="@+id/layout_home_container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            android:layout_height="0dp"
+            android:layout_weight="1"></FrameLayout>
 
-            <FrameLayout
-                android:id="@+id/layout_home_container"
-                android:background="@color/colorAccent"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"></FrameLayout>
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation_home"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="start"
+            app:menu="@menu/menu_home_navigation" />
 
-            <android.support.design.widget.BottomNavigationView
-                android:id="@+id/navigation_home"
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:layout_alignParentBottom="true"
-                android:layout_gravity="start"
-                app:menu="@menu/menu_home_navigation" />
+    </LinearLayout>
 
-        </LinearLayout>
-
-    </android.support.design.widget.CoordinatorLayout>
-</layout>
+</android.support.design.widget.CoordinatorLayout>

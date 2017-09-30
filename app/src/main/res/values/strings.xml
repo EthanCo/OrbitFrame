@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">SmartHome</string>
+
     <string name="menu_device">设备</string>
     <string name="menu_scene">场景</string>
     <string name="menu_settings">设置</string>
+
+    <string name="title_device">设备</string>
+    <string name="title_scene">场景</string>
+    <string name="title_settings">设置</string>
 </resources>

@@ -19,7 +19,7 @@ import com.nbhope.hopelauncher.lib.network.bean.request.CmdRequest
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 
-@Route(path = "/app/main2")
+@Route(path = "/app/main")
 class MainActivity : BaseSimpleActivity() {
     private lateinit var binding: ActivityMainBinding
     private val imagePath = "http://desk.fd.zol-img.com.cn/t_s1920x1080c5/g5/M00/01/00/ChMkJlmhG0yISd-jAEwxSgHE_aIAAf_JAKgfXUATDFi295.jpg?downfile=1503974314159.jpg"

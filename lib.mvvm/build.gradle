@@ -31,8 +31,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     //compile 'io.reactivex:rxandroid:1.1.0'
     compile rootProject.ext.dependencies.rxandroid
-    compile 'me.tatarka.bindingcollectionadapter:bindingcollectionadapter:1.3.0'
-    compile 'me.tatarka.bindingcollectionadapter:bindingcollectionadapter-recyclerview:1.3.0'
+    compile rootProject.ext.dependencies.bindingadapter
+    compile rootProject.ext.dependencies.bindingadapter_recyclerview
     //compile 'com.facebook.fresco:fresco:0.9.0+'
     testCompile 'junit:junit:4.12'
 }
