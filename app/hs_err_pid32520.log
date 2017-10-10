@@ -1,0 +1,151 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=32520, tid=36920
+#
+# JRE version:  (8.0_91-b14) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.91-b14 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002f46000):  JavaThread "Unknown thread" [_thread_in_vm, id=36920, stack(0x0000000002e40000,0x0000000002f40000)]
+
+Stack: [0x0000000002e40000,0x0000000002f40000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002f46000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=36920, stack(0x0000000002e40000,0x0000000002f40000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 18944K, used 327K [0x00000000feb00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 16384K, 2% used [0x00000000feb00000,0x00000000feb51ec8,0x00000000ffb00000)
+  from space 2560K, 0% used [0x00000000ffd80000,0x00000000ffd80000,0x0000000100000000)
+  to   space 2560K, 0% used [0x00000000ffb00000,0x00000000ffb00000,0x00000000ffd80000)
+ ParOldGen       total 44032K, used 0K [0x00000000fc000000, 0x00000000feb00000, 0x00000000feb00000)
+  object space 44032K, 0% used [0x00000000fc000000,0x00000000fc000000,0x00000000feb00000)
+ Metaspace       used 769K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 75K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x0000000002850000,0x0000000002880000] byte_map_base: 0x0000000002070000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000077732f70
+ Begin Bits: [0x0000000012800000, 0x0000000012900000)
+ End Bits:   [0x0000000012900000, 0x0000000012a00000)
+
+Polling page: 0x0000000000e80000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000003040000, 0x00000000032b0000, 0x0000000012040000]
+ total_blobs=58 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.030 loading class java/lang/Short
+Event: 0.030 loading class java/lang/Short done
+Event: 0.030 loading class java/lang/Integer
+Event: 0.030 loading class java/lang/Integer done
+Event: 0.030 loading class java/lang/Long
+Event: 0.030 loading class java/lang/Long done
+Event: 0.030 loading class java/lang/NullPointerException
+Event: 0.030 loading class java/lang/NullPointerException done
+Event: 0.030 loading class java/lang/ArithmeticException
+Event: 0.030 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff62f3c0000 - 0x00007ff62f3f7000 	C:\Java\jdk1.8.0_91\bin\java.exe
+0x00007ff98c470000 - 0x00007ff98c631000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ff98bec0000 - 0x00007ff98bf6d000 	C:\Windows\system32\KERNEL32.DLL
+0x00007ff988dd0000 - 0x00007ff988fb8000 	C:\Windows\system32\KERNELBASE.dll
+0x00007ff98c2e0000 - 0x00007ff98c387000 	C:\Windows\system32\ADVAPI32.dll
+0x00007ff989930000 - 0x00007ff9899cd000 	C:\Windows\system32\msvcrt.dll
+0x00007ff98bf70000 - 0x00007ff98bfcb000 	C:\Windows\system32\sechost.dll
+0x00007ff98b5c0000 - 0x00007ff98b6dc000 	C:\Windows\system32\RPCRT4.dll
+0x00007ff98b3f0000 - 0x00007ff98b546000 	C:\Windows\system32\USER32.dll
+0x00007ff98bd30000 - 0x00007ff98beb6000 	C:\Windows\system32\GDI32.dll
+0x00007ff97e120000 - 0x00007ff97e394000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.839_none_a2ddba30a539a2ae\COMCTL32.dll
+0x00007ff98bfd0000 - 0x00007ff98c24e000 	C:\Windows\system32\combase.dll
+0x00007ff988c20000 - 0x00007ff988c8a000 	C:\Windows\system32\bcryptPrimitives.dll
+0x00007ff98b3b0000 - 0x00007ff98b3eb000 	C:\Windows\system32\IMM32.DLL
+0x0000000050740000 - 0x0000000050812000 	C:\Java\jdk1.8.0_91\jre\bin\msvcr100.dll
+0x0000000076f20000 - 0x00000000777b3000 	C:\Java\jdk1.8.0_91\jre\bin\server\jvm.dll
+0x00007ff98c460000 - 0x00007ff98c468000 	C:\Windows\system32\PSAPI.DLL
+0x00007ff97d440000 - 0x00007ff97d449000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ff98b550000 - 0x00007ff98b5bb000 	C:\Windows\system32\WS2_32.dll
+0x00007ff986da0000 - 0x00007ff986dc3000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ff985370000 - 0x00007ff98537a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ff986d70000 - 0x00007ff986d9c000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ff988b20000 - 0x00007ff988b63000 	C:\Windows\system32\cfgmgr32.dll
+0x0000000050c20000 - 0x0000000050c2f000 	C:\Java\jdk1.8.0_91\jre\bin\verify.dll
+0x0000000050bf0000 - 0x0000000050c19000 	C:\Java\jdk1.8.0_91\jre\bin\java.dll
+0x0000000050bd0000 - 0x0000000050be6000 	C:\Java\jdk1.8.0_91\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Djava.awt.headless=true -Xmx64M -Dfile.encoding=GBK -Duser.country=CN -Duser.language=zh -Duser.variant 
+java_command: com.google.devtools.build.android.desugar.Desugar --input E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\app.login\build\intermediates\intermediate-jars\debug\classes.jar --output E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\app\build\intermediates\transforms\desugar\debug\0.jar --input E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\lib.bugly\build\intermediates\intermediate-jars\debug\classes.jar --output E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\app\build\intermediates\transforms\desugar\debug\9.jar --input E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\lib.print\build\intermediates\intermediate-jars\debug\classes.jar --output E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\app\build\intermediates\transforms\desugar\debug\8.jar --classpath_entry E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\app.login\build\intermediates\intermediate-jars\debug\classes.jar --classpath_entry E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\app.device\build\intermediates\intermediate-jars\debug\classes.jar --classpath_entry E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\app.scene\build\intermediates\intermediate-jars\debug\classes.jar --classpath_entry E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\app.settings\build\intermediates\intermediate-jars\debug\classes.jar --classpath_entry E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\lib.frame\build\intermediates\intermediate-jars\debug\classes.jar --classpath_entry E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\lib.network\build\intermediates\intermediate-jars\debug\classes.jar --classpath_entry E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\lib.kotlinex\build\intermediates\intermediate-jars\debug\classes.jar --classpath_entry E:\VersionManager\WorkSpace\SmartHomeStore\SmartHome\smarthome\lib.utils\build\interme
+java_class_path (initial): C:\Users\fengh\.android\build-cache\5624ec28ecc156ba4fb067ef9944ceb25f94d164920f3e8af993ed278ab138ca\output
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Java\jdk1.8.0_91
+CLASSPATH=.;C:\Java\jdk1.8.0_91\lib\tools.jar;C:\Java\jdk1.8.0_91\jre\lib\dt.jar
+PATH=C:\Program Files\ImageMagick-7.0.1-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Java\jdk1.8.0_91\bin;C:\Program Files\TortoiseSVN\bin;C:\Java\SDK\platform-tools;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\tools\python2;C:\ProgramData\chocolatey\lib\python2;C:\Users\fengh\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10\bin;C:\Java\jdk1.8.0_91;D:\MyTools\apkpatch-1.0.3;C:\Users\fengh\AppData\Roaming\npm
+USERNAME=fengh
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 10586 (10.0.10586.589)
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 94 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 12508864k(2765484k free), swap 22945472k(4924k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.91-b14) for windows-amd64 JRE (1.8.0_91-b14), built on Apr  1 2016 00:58:32 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Sat Sep 30 16:27:28 2017
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

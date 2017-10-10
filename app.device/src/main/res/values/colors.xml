@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="device_music_tab_text_not_checked">#FFFFFF</color>
+    <color name="device_music_tab_text_checked">#00d7cd</color>
+</resources>

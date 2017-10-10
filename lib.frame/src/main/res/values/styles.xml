@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Toolbar 主题-->
+    <style name="toolbar_theme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">#FFFFFF</item>
+    </style>
+
+    <!--<style name="TitleBarStyle">-->
+        <!--<item name="bar_text_color">@color/colorWhite</item>-->
+        <!--<item name="title_textSize">@dimen/textSize_appBar_V20</item>-->
+        <!--<item name="common_textSize">@dimen/textSize_subHead_V18</item>-->
+        <!--<item name="leftIc">@drawable/ic_back_arrow</item>-->
+        <!--<item name="leftText">"返回"</item>-->
+        <!--<item name="title">"标题"</item>-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">48dp</item>-->
+        <!--<item name="android:background">#19000000</item>-->
+        <!--<item name="leftText_RightPadding">8dp</item>-->
+        <!--<item name="leftIc_LeftPadding">20dp</item>-->
+        <!--<item name="leftText_LeftPadding">8dp</item>-->
+        <!--<item name="bottom_divider_visible">false</item>-->
+        <!--<item name="bottom_divider_color">#d8d9da</item>-->
+    <!--</style>-->
+</resources>
