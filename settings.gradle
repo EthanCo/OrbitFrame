@@ -1,1 +1,0 @@
-include ':app', ':lib.style', ':lib.frame', ':lib.utils', ':app.scene', ':lib.kotlinex', ':lib.bugly', ':lib.network', ':lib.mvvm', ':app.settings', ':lib.print', ':app.login', ':app.device'
