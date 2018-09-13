@@ -21,7 +21,7 @@ Recyclerview框架: BaseRecyclerViewHelper
 ### 项目组件  
 项目的功能可拆分为如下各个组件，各个业务模块之间可以独立运行，亦可组合在一起打Release包，如下图所示。
 
-![这里写图片描述](http://img.blog.csdn.net/20170714151835881?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRXRoYW5Dbw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  
+![这里写图片描述](http://oqk78xit2.bkt.clouddn.com/20170714151835881.png)  
 
 ### 新建组件步骤
 详见[创建组件](/doc/创建组件.md)
